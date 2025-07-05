@@ -1,4 +1,4 @@
-package com.example.fintech_ui_tutorial
+package com.example.fintech
 
 import io.flutter.embedding.android.FlutterActivity
 

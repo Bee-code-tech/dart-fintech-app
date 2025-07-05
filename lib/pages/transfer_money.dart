@@ -1,6 +1,5 @@
-import 'package:fintech_ui_tutorial/pages/top_up.dart';
-import 'package:fintech_ui_tutorial/widgets/credit_card.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:fintech/pages/top_up.dart';
+import 'package:fintech/widgets/credit_card.dart';
 import 'package:flutter/material.dart';
 
 class TransferMoney extends StatelessWidget {
@@ -98,9 +97,11 @@ class TransferMoney extends StatelessWidget {
                               children: [
                                 index == 0
                                     ? const Padding(
-                                        padding: EdgeInsets.symmetric(horizontal: 8.0),
+                                        padding: EdgeInsets.symmetric(
+                                            horizontal: 8.0),
                                         child: Row(
-                                          mainAxisAlignment: MainAxisAlignment.end,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.end,
                                           children: [
                                             Icon(
                                               Icons.check,
@@ -113,7 +114,8 @@ class TransferMoney extends StatelessWidget {
                                 const SizedBox(height: 12),
                                 const CircleAvatar(
                                   radius: 20,
-                                  backgroundImage: AssetImage("assets/person.jpeg"),
+                                  backgroundImage:
+                                      AssetImage("assets/person.jpeg"),
                                 ),
                                 const Text(
                                   "Maria",
@@ -132,13 +134,17 @@ class TransferMoney extends StatelessWidget {
                 const SizedBox(height: 50),
                 ElevatedButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=> const TopUpPage()));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const TopUpPage()));
                   },
                   style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.black,
                       foregroundColor: Colors.white,
                       fixedSize: const Size(double.maxFinite, 60),
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12))),
                   child: const Text(
                     "Continue",
                     style: TextStyle(

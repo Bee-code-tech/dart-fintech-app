@@ -1,13 +1,10 @@
-import 'package:fintech_ui_tutorial/pages/activity.dart';
-import 'package:fintech_ui_tutorial/pages/home.dart';
-import 'package:fintech_ui_tutorial/pages/my_card.dart';
-import 'package:fintech_ui_tutorial/pages/profile.dart';
-import 'package:fintech_ui_tutorial/pages/scan.dart';
-import 'package:fintech_ui_tutorial/widgets/action_button.dart';
-import 'package:fintech_ui_tutorial/widgets/transaction_list.dart';
+import 'package:fintech/pages/activity.dart';
+import 'package:fintech/pages/home.dart';
+import 'package:fintech/pages/my_card.dart';
+import 'package:fintech/pages/profile.dart';
+import 'package:fintech/pages/scan.dart';
 import 'package:flutter/material.dart';
 
-import 'widgets/credit_card.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +13,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+// just dey play my fans 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

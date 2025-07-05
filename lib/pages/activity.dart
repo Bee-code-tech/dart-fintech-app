@@ -94,7 +94,7 @@ class ActivityPage extends StatelessWidget {
               ),
               const SizedBox(height: 25),
               Container(
-                padding: EdgeInsets.all(12),
+                padding: const EdgeInsets.all(12),
                 width: double.maxFinite,
                 height: 350,
                 decoration: BoxDecoration(
@@ -125,9 +125,9 @@ class ActivityPage extends StatelessWidget {
                     Expanded(
                       child: LineChart(
                         LineChartData(
-                          gridData: FlGridData(show: false),
+                          gridData: const FlGridData(show: false),
                           titlesData: FlTitlesData(
-                            leftTitles: AxisTitles(
+                            leftTitles: const AxisTitles(
                               sideTitles: SideTitles(showTitles: false),
                             ),
                             bottomTitles: AxisTitles(

@@ -1,4 +1,3 @@
-import 'package:fintech_ui_tutorial/widgets/credit_card.dart';
 import 'package:flutter/material.dart';
 
 class MyCardPage extends StatelessWidget {
